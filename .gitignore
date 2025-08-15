@@ -1,0 +1,29 @@
+# Ignore Python cache and build files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+
+# Ignore virtual environment folders
+env/
+venv/
+.venv/
+
+# Ignore Streamlit secrets
+.env
+secrets.toml
+.streamlit/secrets.toml
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore build/dist files
+build/
+dist/
+*.spec
